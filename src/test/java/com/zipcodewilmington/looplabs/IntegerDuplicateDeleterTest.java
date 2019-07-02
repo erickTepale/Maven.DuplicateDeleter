@@ -50,8 +50,8 @@ public class IntegerDuplicateDeleterTest {
     public void testRemoveDuplicatesExactly3() {
         Integer[] expected = new Integer[]{1, 2, 2, 4, 4, 6};
         deleter.removeDuplicates(3);
-        deleter.removeDuplicatesExactly(2);
-        deleter.removeDuplicatesExactly(1);
+//        deleter.removeDuplicatesExactly(2);
+//        deleter.removeDuplicatesExactly(1);
 
         Integer[] actual = deleter.removeDuplicatesExactly(3);
         TestUtils.assertArrayEquality(expected, actual);
